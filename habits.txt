@@ -1,0 +1,13 @@
+Executing add_habit with args: (HabitsService(habits=[]),)
+Finished executing add_habit with result: None
+Executing add_habit with args: (HabitsService(habits=[Habit(name='comer', date=datetime.date(2025, 11, 6), completed=True)]),)
+Finished executing add_habit with result: None
+Executing calculate with args: (HabitsService(habits=[Habit(name='comer', date=datetime.date(2025, 11, 6), completed=True), Habit(name='2025-11-06', date=datetime.date(2025, 11, 6), completed=False)]),)
+Finished executing calculate with result: None
+Executing get_habits_by_date with args: (HabitsService(habits=[Habit(name='comer', date=datetime.date(2025, 11, 6), completed=True), Habit(name='2025-11-06', date=datetime.date(2025, 11, 6), completed=False)]), datetime.datetime(2025, 11, 6, 0, 0))
+Finished executing get_habits_by_date with result: [Habit(name='comer', date=datetime.date(2025, 11, 6), completed=True), Habit(name='2025-11-06', date=datetime.date(2025, 11, 6), completed=False)]
+Executing get_habits_by_range_of_date with args: (HabitsService(habits=[Habit(name='comer', date=datetime.date(2025, 11, 6), completed=True), Habit(name='2025-11-06', date=datetime.date(2025, 11, 6), completed=False)]), datetime.datetime(2025, 11, 2, 0, 0), datetime.datetime(2025, 11, 4, 0, 0))
+Finished executing get_habits_by_range_of_date with result: []
+Executing get_habits_by_date with args: (HabitsService(habits=[]), datetime.datetime(2025, 11, 2, 0, 0))
+Finished executing get_habits_by_date with result: []
+Executing calculate with args: (HabitsService(habits=[]),)
